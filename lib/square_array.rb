@@ -1,5 +1,6 @@
 require 'pry'
 
+counter = 0 
 numbers = [1,2,3]
 square_array = []
 
