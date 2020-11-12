@@ -5,8 +5,9 @@ def square_array(numbers)
   while counter < numbers.length do 
     numbers.index[counter]**numbers.index[counter] 
     counter += 1 
+    square_array(numbers)
   end
 end
 
-p square_array(numbers)
+
 
