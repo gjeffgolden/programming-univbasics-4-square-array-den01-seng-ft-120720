@@ -8,5 +8,5 @@ def square_array(numbers)
   end
 end
 
-square_array(numbers)
+p square_array(numbers)
 
