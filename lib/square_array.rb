@@ -1,15 +1,16 @@
+array = [1,2,3]
 
-def square_array(array)
+def square_array(numbers)
   counter = 0 
   new_array = []
-  while counter < array.length()
-    new_array.push(array[counter] ** array[counter])
+  while counter < numbers.length()
+    new_array.push(numbers[counter] ** numbers[counter])
     counter += 1 
   end
-  puts new_array
+  p new_array
 end
 
-square_array(array)
+square_array(numbers)
 
 
 
