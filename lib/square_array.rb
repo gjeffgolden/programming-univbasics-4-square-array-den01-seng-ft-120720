@@ -6,8 +6,8 @@ def square_array(numbers)
   while counter < numbers.length do 
     new_array.push(numbers[counter] * numbers[counter])
     counter += 1 
-    p new_array
   end
+  puts new_array
 end
 
 square_array(numbers)
